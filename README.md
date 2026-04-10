@@ -105,10 +105,21 @@ os.getenv("OPENAI_API_KEY")
   - Identified excessive repetition of the client name as a remaining natural-language issue
   - Identified the need for a gentler “pharmacist-like” professional tone in the next iteration
   - Expanded evaluation planning to include a younger, more knowledgeable client and stronger fall-risk / human-review escalation
+  - Validated Version 2 output across evaluation cases
+  - Identified overuse of client name as a natural-language limitation
+  - Identified need for improved tone realism (“gentle pharmacist” style)
+  - Expanded safety considerations to include fall risk and human-review escalation
+
+- Version 3:
+  - Refined tone to a more natural, professional “gentle pharmacist” style
+  - Reduced repetition of client name to improve readability
+  - Added identification of higher-risk scenarios (e.g., fall risk)
+  - Introduced human-review messaging for safety escalation
+  - Improved overall naturalness of generated outputs
 
 ---
 
 ## Status
 
-Version 2 has been successfully evaluated and documented. Version 2 was evaluated across a structured multi-case evaluation set to ensure consistency, safety, and personalization. Version 3 will focus on reducing name repetition, improving tone naturalness, expanding scenario coverage, and strengthening higher-risk escalation language.
+Version 3 has been implemented and is ready for testing and evaluation. This iteration focuses on improving tone naturalness, reducing redundancy, and strengthening safety escalation.
 

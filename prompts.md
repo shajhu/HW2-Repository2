@@ -156,3 +156,19 @@ Version 3 focuses on refining natural communication quality while maintaining st
 ### Version 3 Design Insight
 
 Version 3 will focus on improving natural communication quality while preserving the strengths of Version 2. The goal is to make the output sound more like a skilled human professional, while also improving escalation language for cases that may require additional review.
+
+## Version 3 Prompt
+
+### Key Improvements
+- Reduced repetition of the client’s name (limited to 1–2 uses)
+- Introduced “gentle pharmacist” tone (professional, calm, reassuring)
+- Improved natural conversational flow
+- Reduced templated phrasing
+- Strengthened sentence variation and readability
+- Added identification of higher-risk concerns (e.g., fall risk)
+- Introduced human-review escalation language
+- Maintained structure and safety from Version 2
+
+### Version 3 Design Insight
+
+Version 3 focuses on improving natural communication quality while preserving structure and safety. The goal is to make outputs feel more like a skilled human professional, similar to a pharmacist or experienced wellness consultant. This iteration also introduces clearer escalation pathways for higher-risk scenarios and reinforces a human-in-the-loop safety approach.

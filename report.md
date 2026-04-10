@@ -100,4 +100,29 @@ Version 2 improved personalization, identity consistency, and overall tone while
 
 In higher-risk cases, the system now signals that a trained professional may review the situation, reinforcing a safe human-in-the-loop approach.
 
+---
+
+## Version 3 Output
+
+(Version 3 output will be added after running the model)
+
+---
+
+## Observations (Version 3)
+
+- Expected reduction in name repetition
+- More natural and professional tone
+- Improved readability and sentence variation
+- Stronger alignment with real-world communication style
+- Clearer escalation language for higher-risk scenarios
+
+---
+
+## Comparison (Version 2 vs Version 3)
+
+- Version 2 improved personalization but overused the client name
+- Version 3 improves natural flow by reducing repetition
+- Version 3 introduces a more realistic professional tone
+- Version 3 strengthens safety awareness and escalation messaging
+
 Version 3 will focus on improving naturalness and professional tone, with a target style similar to a gentle pharmacist or experienced wellness consultant. It will also strengthen higher-risk escalation language, including situations involving fall risk or cases that warrant review by a highly trained professional.
