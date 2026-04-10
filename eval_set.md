@@ -33,18 +33,19 @@ First consult, sleep + relaxation concerns.
 
 ---
 
-## Case 3 - Edge Case (Limited Information)
+## Case 3 – Gender Handling (Male Client)
 
 **Input:**
-Client Name: Unknown  
-No gender provided  
-Minimal notes: "Client wants help with stress"
+Client Name: John Carter  
+Gender: Male  
+First consult, experiencing mild stress and difficulty unwinding after work.
 
 **Expected Output:**
-- Does NOT assume gender
-- Uses neutral language or name
-- Still structured and helpful
-- Avoids overreach
+- Uses “John” naturally  
+- Uses correct male pronouns  
+- Maintains personalized tone  
+- Avoids generic phrasing  
+- Includes callback line
 
 ---
 
