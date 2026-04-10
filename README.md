@@ -93,16 +93,8 @@ os.getenv("OPENAI_API_KEY")
   - Strengthened tone to be more conversational and client-specific while remaining professional
   - Added callback language inviting the client to follow up at XXX-XXX-XXXX
   - Refined prompt structure to follow a clearer chain of command (identity → context → recommendations → tone → safety → closing)
-
-- QC Updates:
-  - Removed hardcoded API key
-  - Implemented environment variable usage
-  - Improved formatting and reproducibility
-  - Noted a minor reviewer disagreement about README activation-line formatting while keeping the GitHub-safe path
-
-- Environment Event:
-  - Computer crash occurred during file transfer to Repository2
-  - Project was reopened and revalidated before continuing
+  - Added evaluation set coverage to capture a missed module/test requirement
+  - Created a 5-case evaluation set covering normal, edge, and high-risk scenarios for repeatable, fair testing
 
 ---
 
