@@ -38,7 +38,7 @@ python app.py
 
 ---
 
-## API Key Setup (Environment Configuration)
+## API Key Setup and Environment Configuration
 
 The OpenAI API key is stored securely using an environment variable rather than being hardcoded into the application:
 
@@ -57,3 +57,37 @@ os.getenv("OPENAI_API_KEY")
 * The API key setup process was straightforward once understood
 * The primary learning point was that environment variables require restarting the terminal
 * This approach improves security and keeps sensitive information out of the codebase
+---
+
+## Version 1 Summary
+
+### What was built
+- A working Python application (`app.py`)
+- OpenAI API integration using a structured prompt
+- Consistent, section-based output
+
+### Observations
+- Output is clear and well-structured
+- Tone is appropriate for the intended audience
+- Some phrasing is generic and could be more personalized
+
+---
+
+## Revision History
+
+- Setup:
+  - Created project structure and virtual environment
+  - Installed OpenAI package and configured API access
+
+- Version 1:
+  - Built initial LLM workflow prototype
+  - Verified successful output generation
+
+- QC Updates:
+  - Removed hardcoded API key
+  - Implemented environment variable usage
+  - Improved formatting and reproducibility
+
+- Environment Event:
+  - Computer crash occurred during file transfer to Repository2
+  - Project was reopened and revalidated before continuing
