@@ -95,10 +95,12 @@ os.getenv("OPENAI_API_KEY")
   - Refined prompt structure to follow a clearer chain of command (identity → context → recommendations → tone → safety → closing)
   - Added evaluation set coverage to capture a missed module/test requirement
   - Created a 5-case evaluation set covering normal, edge, and high-risk scenarios for repeatable, fair testing
+  - Validated output using evaluation set and confirmed improvements in personalization, tone, and structure
+  - Identified opportunity to improve natural language flow by reducing name repetition
 
 ---
 
 ## Status
 
-Version 2 is prepared and ready for testing locally. Future iterations will focus on improving tone consistency, edge-case handling, and personalization across multiple client scenarios.
+Version 2 has been successfully tested and evaluated. Version 3 will focus on improving tone naturalness, reducing redundancy, and refining personalization.
 

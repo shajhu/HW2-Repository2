@@ -46,10 +46,13 @@ The Version 1 prompt focused heavily on structure and safety, which resulted in 
 
 ## Planned Improvements for Version 3
 
-- Improve consistency across different test cases  
-- Reduce verbosity and tighten language  
-- Better handle edge cases (limited or conflicting input)  
-- Further refine tone to feel natural rather than templated  
+- Reduce repetition of the client’s name to improve natural flow
+- Limit name usage to 1–2 times (preferably beginning and/or closing)
+- Maintain personalization without sounding redundant
+- Adjust tone to feel more like professional human communication (e.g., pharmacist or wellness consultant)
+- Further reduce templated phrasing
+- Improve variation in sentence structure
+- Maintain safety, structure, and clarity from Version 2  
 
 ---
 
@@ -122,3 +125,7 @@ Version 1 was clear and safe, but some phrasing felt generic and not fully tailo
 ### Version 2 Design Insight
 
 Version 2 focused on improving personalization while preserving the structure and safety constraints of Version 1. By explicitly introducing client identity (name and gender) and adding instructions to avoid generic phrasing, the prompt aims to produce outputs that feel more tailored and less templated. The addition of a callback line also improves real-world usability by introducing a clear next action for the client.
+
+### Version 3 Design Insight
+
+Version 3 will focus on refining tone and naturalness. While Version 2 improved personalization, it introduced slight redundancy through repeated name usage. The next iteration aims to balance personalization with professional communication norms, making outputs feel more natural and human while preserving clarity and safety.
