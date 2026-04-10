@@ -129,3 +129,17 @@ Version 2 focused on improving personalization while preserving the structure an
 ### Version 3 Design Insight
 
 Version 3 will focus on refining tone and naturalness. While Version 2 improved personalization, it introduced slight redundancy through repeated name usage. The next iteration aims to balance personalization with professional communication norms, making outputs feel more natural and human while preserving clarity and safety.
+
+## Version 3 Prompt Improvements
+
+- Adjust tone to reflect a "gentle pharmacist" style: professional, calm, knowledgeable, and reassuring without sounding overly clinical
+- Reduce repetition of the client’s name (limit to 1–2 uses maximum, preferably opening and/or closing)
+- Maintain personalization while improving natural conversational flow
+- Further reduce templated or repetitive phrasing
+- Improve sentence variation and readability
+- Strengthen safety awareness by identifying higher-risk situations (e.g., fall risk, severe symptoms)
+- Introduce escalation language when appropriate (e.g., recommending professional review)
+
+### Version 3 Design Insight
+
+Version 3 focuses on refining natural communication quality while maintaining structure and safety. The goal is to balance personalization with professional tone, similar to how a pharmacist or experienced wellness consultant would communicate. This iteration also introduces clearer escalation pathways for higher-risk scenarios, ensuring the system remains safe and responsible in more complex cases.

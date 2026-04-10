@@ -85,3 +85,13 @@ Please feel free to call us back at XXX-XXX-XXXX if you'd like to discuss this f
 - Version 2 introduced identity consistency (name and gender handling)
 - Version 2 added actionable follow-up (callback)
 - Tradeoff: increased personalization led to slight overuse of the client name
+
+### Version 3 Enhancements
+
+- Tone refinement toward a "gentle pharmacist" style to improve realism
+- Reduced name repetition to improve natural communication
+- Expanded evaluation coverage to include a younger, more knowledgeable client
+- Improved handling of higher-risk scenarios by introducing escalation language
+- Added concept of human review for complex or potentially unsafe situations
+
+In higher-risk cases, the system now signals that a trained professional may review the situation, reinforcing a safe human-in-the-loop approach.

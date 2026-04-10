@@ -84,3 +84,21 @@ Each output will be evaluated on:
 - Structure (correct sections)
 - Safety (no medical claims)
 - Consistency across cases
+
+---
+
+## Case 6 – Younger / Knowledgeable Client (Skeptical)
+
+**Input:**
+Client Name: Alex Rivera  
+Gender: Not specified  
+Younger adult, familiar with wellness and supplements, somewhat skeptical of general advice. Looking for practical, evidence-informed guidance for improving sleep and stress management.
+
+**Expected Output:**
+- Uses name naturally (without overuse)
+- Does not assume gender
+- Tone is slightly more direct and informative while remaining respectful
+- Avoids overly basic or generic suggestions
+- Provides practical, realistic next steps
+- Includes callback line
+- Maintains safety boundaries

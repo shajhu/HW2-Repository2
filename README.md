@@ -97,10 +97,14 @@ os.getenv("OPENAI_API_KEY")
   - Created a 5-case evaluation set covering normal, edge, and high-risk scenarios for repeatable, fair testing
   - Validated output using evaluation set and confirmed improvements in personalization, tone, and structure
   - Identified opportunity to improve natural language flow by reducing name repetition
+  - Identified need to improve tone naturalness (reduce name repetition)
+  - Identified opportunity to introduce more nuanced client scenarios (younger / knowledgeable clients)
+  - Recognized need for clearer escalation language in higher-risk situations
+  - Adjusted prompts to provide a master prompt resolving disputes between logic
 
 ---
 
 ## Status
 
-Version 2 has been successfully tested and evaluated. Version 3 will focus on improving tone naturalness, reducing redundancy, and refining personalization.
+Version 2 has been successfully evaluated. Version 3 will focus on refining tone (gentle pharmacist style), improving natural language flow, expanding evaluation coverage, and strengthening safety escalation through human review messaging.
 
