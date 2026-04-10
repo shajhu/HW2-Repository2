@@ -26,7 +26,7 @@ Client follow-up communication is repetitive but important for maintaining consi
 ```bash
 python -m venv .venv
 # Command Prompt
-.venv\Scripts\activate
+.\.venv\Scripts\activate
 pip install openai
 setx OPENAI_API_KEY "your_api_key_here"
 ```
@@ -86,11 +86,13 @@ os.getenv("OPENAI_API_KEY")
   - Verified successful output generation
 
 - Version 2:
-  - Improved personalization and reduced generic phrasing
-  - Added explicit client name usage ("Sally May")
-  - Added structured gender handling based on consult-note input
+  - Improved personalization and reduced generic phrasing in generated outputs
+  - Added explicit client name usage (“Sally May”) to test identity consistency
+  - Introduced structured gender handling using a dedicated input field
   - Instructed the model not to guess gender when input is missing or unclear
-  - Added callback language using XXX-XXX-XXXX
+  - Strengthened tone to be more conversational and client-specific while remaining professional
+  - Added callback language inviting the client to follow up at XXX-XXX-XXXX
+  - Refined prompt structure to follow a clearer chain of command (identity → context → recommendations → tone → safety → closing)
 
 - QC Updates:
   - Removed hardcoded API key
