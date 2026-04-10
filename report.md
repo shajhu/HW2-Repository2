@@ -42,6 +42,7 @@ If you find that difficulties with relaxation or sleep persist or worsen, it wou
 Client Follow-Up Draft
 
 Summary of Conversation
+
 Thank you for coming in for your first wellness consult, Sally. We discussed how you've been struggling to relax in the evenings and maintain a consistent sleep routine, even though you're familiar with wellness products through your spouse. You mentioned preferring gentle, straightforward approaches that feel natural and not overwhelming.
 
 Client Goals
