@@ -98,6 +98,7 @@ os.getenv("OPENAI_API_KEY")
   - Removed hardcoded API key
   - Implemented environment variable usage
   - Improved formatting and reproducibility
+  - Noted a minor reviewer disagreement about README activation-line formatting while keeping the GitHub-safe path
 
 - Environment Event:
   - Computer crash occurred during file transfer to Repository2
