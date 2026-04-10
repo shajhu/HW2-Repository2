@@ -58,6 +58,7 @@ os.getenv("OPENAI_API_KEY")
 * The API key setup process was straightforward once understood
 * The primary learning point was that environment variables require restarting the terminal
 * This approach improves security and keeps sensitive information out of the codebase
+
 ---
 
 ## Version 1 Summary
@@ -84,6 +85,13 @@ os.getenv("OPENAI_API_KEY")
   - Built initial LLM workflow prototype
   - Verified successful output generation
 
+- Version 2:
+  - Improved personalization and reduced generic phrasing
+  - Added explicit client name usage ("Sally May")
+  - Added structured gender handling based on consult-note input
+  - Instructed the model not to guess gender when input is missing or unclear
+  - Added callback language using XXX-XXX-XXXX
+
 - QC Updates:
   - Removed hardcoded API key
   - Implemented environment variable usage
@@ -97,4 +105,5 @@ os.getenv("OPENAI_API_KEY")
 
 ## Status
 
-Version 1 of the workflow is complete and successfully deployed locally. Future iterations will focus on improving personalization, tone, and consistency across different client scenarios.
+Version 2 is prepared and ready for testing locally. Future iterations will focus on improving tone consistency, edge-case handling, and personalization across multiple client scenarios.
+

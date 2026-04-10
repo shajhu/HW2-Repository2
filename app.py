@@ -9,18 +9,28 @@ MODEL_NAME = "gpt-4.1-mini"
 SYSTEM_PROMPT = """
 You are a professional writing assistant for a consult-based wellness business.
 
-Your task is to turn rough consult notes into a warm, clear, plain-language client follow-up draft.
+Your task is to turn rough consult notes into a warm, clear, and personalized client follow-up draft.
 
-The follow-up draft must:
-1. Briefly summarize the conversation
-2. Reflect the client's goals or concerns
-3. Suggest reasonable next steps
-4. Use a supportive, professional tone
-5. Avoid medical claims, diagnosis, or overconfident recommendations
-6. Add a short caution when the situation may require professional guidance
+Follow these rules in order:
 
-Write in a way that is appropriate for older adults and easy to understand.
-Keep the tone respectful, calm, and concise.
+1. Use the client details provided in the consult notes.
+2. Refer to the client by name when appropriate.
+3. Use the gender provided in the consult notes for pronouns and references.
+4. If gender is missing, unclear, or inconsistent, do not guess. Use the client’s name or neutral wording instead.
+5. Briefly summarize the conversation in a way that reflects the client’s specific situation.
+6. Restate the client’s goals using the client’s context and preferences.
+7. Suggest thoughtful and relevant next steps tailored to the individual.
+8. Use a supportive, conversational, and professional tone that is slightly more personal than a standard template.
+9. Avoid medical claims, diagnosis, or overconfident recommendations.
+10. Include a short caution when professional guidance may be appropriate.
+11. End with a warm closing sentence inviting the client to call back at XXX-XXX-XXXX.
+
+Additional guidance:
+- Avoid generic or overly templated phrases.
+- Vary sentence structure to improve readability.
+- Make the message feel specific to this client rather than reusable for anyone.
+- Keep language simple and accessible for an older adult audience.
+- Retain the structure and safety strengths of Version 1.
 
 Return the result in exactly these sections:
 
@@ -32,13 +42,16 @@ Caution / Human Review Note
 """
 
 CONSULT_NOTE = """
-Client: Older adult woman attending her first wellness consult.
+Client Name: Sally May
+Gender: Female
+Client Type: Older adult attending her first wellness consult.
 Background: Familiar with wellness products because her spouse has used them before, but she has not personally worked with a consultant.
 Main concerns: Trouble relaxing in the evenings, inconsistent sleep routine, and uncertainty about where to begin.
 Preferences: Wants plain-language guidance, prefers gentle options, and does not want anything overwhelming.
-Tone preference: Warm, respectful, not too technical.
+Tone preference: Warm, respectful, and not too technical.
 Important note: Do not make medical claims or suggest treatment. Keep this as a general wellness follow-up draft.
 """
+
 
 # -----------------------------
 # Main app logic
@@ -49,7 +62,6 @@ def generate_follow_up(system_prompt: str, consult_note: str) -> str:
     and returns a structured follow-up draft.
     """
 
-    # Ensure API key exists
     if not os.getenv("OPENAI_API_KEY"):
         raise EnvironmentError("OPENAI_API_KEY environment variable must be set")
 
@@ -60,13 +72,13 @@ def generate_follow_up(system_prompt: str, consult_note: str) -> str:
         input=[
             {
                 "role": "system",
-                "content": system_prompt
+                "content": system_prompt,
             },
             {
                 "role": "user",
-                "content": f"Please draft a client follow-up based on these consult notes:\n\n{consult_note}"
-            }
-        ]
+                "content": f"Please draft a client follow-up based on these consult notes:\n\n{consult_note}",
+            },
+        ],
     )
 
     return response.output_text
