@@ -143,3 +143,16 @@ Version 3 will focus on refining tone and naturalness. While Version 2 improved 
 ### Version 3 Design Insight
 
 Version 3 focuses on refining natural communication quality while maintaining structure and safety. The goal is to balance personalization with professional tone, similar to how a pharmacist or experienced wellness consultant would communicate. This iteration also introduces clearer escalation pathways for higher-risk scenarios, ensuring the system remains safe and responsible in more complex cases.
+
+## Version 3 Planned Improvements
+
+- Reduce repetition of the client’s name to 1–2 uses maximum
+- Refine tone to feel like a gentle pharmacist: calm, professional, reassuring, and knowledgeable
+- Preserve personalization without sounding templated
+- Strengthen safety language for higher-risk scenarios such as fall risk or concerning functional impairment
+- Add a human-review message indicating that a highly trained professional may review the case when appropriate
+- Maintain structure, safety, and clarity from Version 2
+
+### Version 3 Design Insight
+
+Version 3 will focus on improving natural communication quality while preserving the strengths of Version 2. The goal is to make the output sound more like a skilled human professional, while also improving escalation language for cases that may require additional review.

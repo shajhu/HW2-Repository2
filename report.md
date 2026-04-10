@@ -68,6 +68,9 @@ Please feel free to call us back at XXX-XXX-XXXX if you'd like to discuss this f
 - Callback instruction is successfully included
 - The model demonstrates stronger alignment with client-specific context
 
+
+Version 2 improved personalization, identity consistency, and overall tone while maintaining the structural reliability and safety boundaries established in Version 1. The main remaining issue was slight overuse of the client’s name, which made some sections feel less natural than intended.
+
 ---
 
 ## Limitations (Version 2)
@@ -95,3 +98,5 @@ Please feel free to call us back at XXX-XXX-XXXX if you'd like to discuss this f
 - Added concept of human review for complex or potentially unsafe situations
 
 In higher-risk cases, the system now signals that a trained professional may review the situation, reinforcing a safe human-in-the-loop approach.
+
+Version 3 will focus on improving naturalness and professional tone, with a target style similar to a gentle pharmacist or experienced wellness consultant. It will also strengthen higher-risk escalation language, including situations involving fall risk or cases that warrant review by a highly trained professional.
