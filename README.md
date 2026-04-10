@@ -110,5 +110,5 @@ os.getenv("OPENAI_API_KEY")
 
 ## Status
 
-Version 2 has been successfully evaluated and documented. Version 3 will focus on reducing name repetition, improving tone naturalness, expanding scenario coverage, and strengthening higher-risk escalation language.
+Version 2 has been successfully evaluated and documented. Version 2 was evaluated across a structured multi-case evaluation set to ensure consistency, safety, and personalization. Version 3 will focus on reducing name repetition, improving tone naturalness, expanding scenario coverage, and strengthening higher-risk escalation language.
 
