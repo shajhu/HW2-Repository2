@@ -82,39 +82,53 @@ Version 2 improved personalization, identity consistency, and overall tone while
 
 ---
 
-## Comparison (Version 1 vs Version 2)
+## Comparison (Version 1 vs Version 2 vs Version 3)
 
-- Version 1 produced structured but more generic outputs
-- Version 2 improved personalization and tone
-- Version 2 introduced identity consistency (name and gender handling)
-- Version 2 added actionable follow-up (callback)
-- Tradeoff: increased personalization led to slight overuse of the client name
-
-### Version 3 Enhancements
-
-- Tone refinement toward a "gentle pharmacist" style to improve realism
-- Reduced name repetition to improve natural communication
-- Expanded evaluation coverage to include a younger, more knowledgeable client
-- Improved handling of higher-risk scenarios by introducing escalation language
-- Added concept of human review for complex or potentially unsafe situations
-
-In higher-risk cases, the system now signals that a trained professional may review the situation, reinforcing a safe human-in-the-loop approach.
+- Version 1 produced structured but generic outputs with limited personalization
+- Version 2 improved personalization and introduced identity consistency but overused the client's name
+- Version 3 refined tone and naturalness, reducing repetition and improving readability
+- Version 3 introduced a more realistic professional voice suitable for client communication
+- Version 3 maintained safety while integrating escalation more naturally
+- Identified that tone should vary depending on whether the audience is a client or internal stakeholder
 
 ---
 
 ## Version 3 Output
 
-(Version 3 output will be added after running the model)
+[Generating output...]
+
+Client Follow-Up Draft
+
+Summary of Conversation
+
+Thank you for coming in for your first wellness consult, Sally. We discussed how you've been struggling to relax in the evenings and maintain a consistent sleep routine, even though you're familiar with wellness products through your spouse. You mentioned preferring gentle, straightforward approaches that feel natural and not overwhelming.
+
+Client Goals
+
+Sally, your main goals are to find simple ways to unwind after a long day and establish a more regular sleep schedule that supports your overall well-being. You want guidance that's easy to follow and fits comfortably into your lifestyle without feeling like too much.
+
+Suggested Next Steps
+
+To start, Sally, you might try some gentle breathing exercises or reading a calming book before bed to help you transition into relaxation time. Setting a consistent bedtime and wake-up time could also help build a steadier routine. If you're open to exploring wellness products, look for mild, natural options and introduce them gradually to see what works best for you. Keeping a brief journal of your evening habits might help track what feels most helpful.
+
+Caution / Human Review Note
+
+If your challenges with relaxation or sleep persist or become more concerning, it would be wise to consult with a healthcare professional for personalized advice. Remember, these suggestions are general wellness ideas and not a substitute for medical guidance.
+
+Please feel free to call us back at XXX-XXX-XXXX if you'd like to discuss this further or schedule your next appointment.
+
+[End of output]
 
 ---
 
 ## Observations (Version 3)
 
-- Expected reduction in name repetition
-- More natural and professional tone
-- Improved readability and sentence variation
-- Stronger alignment with real-world communication style
-- Clearer escalation language for higher-risk scenarios
+- Tone is more natural and conversational compared to previous versions
+- Output reflects a professional, calm, and reassuring style similar to a pharmacist
+- Name repetition is reduced but still has minor room for optimization
+- Communication is more direct and appropriate for client-facing use
+- Sentence structure is more varied and readable
+- Safety language is present and appropriately balanced
 
 ---
 
@@ -139,4 +153,5 @@ Version 3 will focus on improving naturalness and professional tone, with a targ
 (To be completed after Version 3 testing)
 
 ## Final Recommendation
-(To be completed after final comparison across versions)
+
+Version 3 is the strongest iteration. It successfully balances personalization, professionalism, and safety while improving natural communication. It is suitable for client-facing use, with minor opportunities for further refinement in name usage and tone adaptability for different audiences.

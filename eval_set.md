@@ -103,3 +103,7 @@ Younger adult, familiar with wellness and supplements, somewhat skeptical of gen
 - Provides practical, realistic next steps
 - Includes callback line
 - Maintains safety boundaries
+
+### Evaluation Insight
+
+The evaluation set was expanded to include multiple client types, including a younger and more knowledgeable client. This helped validate that the model can adjust tone and recommendations based on user familiarity and expectations. It also reinforced the importance of handling higher-risk scenarios with appropriate caution and escalation.

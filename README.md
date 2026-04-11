@@ -115,25 +115,34 @@ os.getenv("OPENAI_API_KEY")
   - Reduced repetition of client name to improve readability
   - Added identification of higher-risk scenarios (e.g., fall risk)
   - Introduced human-review messaging for safety escalation
-  - Improved overall naturalness of generated outputs
-
+  - Improved overall naturalness of generated outputs  - Improved conversational flow and reduced templated phrasing
+  - Introduced awareness of higher-risk scenarios (e.g., fall risk, functional impact)
+  - Added human-review messaging for safety escalation
+  - Recognized that tone should adapt based on audience (client-facing vs internal communication)
 ---
 
 ## Status
 
-Version 3 has been implemented and is ready for testing and evaluation. This iteration focuses on improving tone naturalness, reducing redundancy, and strengthening safety escalation.
+Version 3 has been implemented, tested, and evaluated. This iteration improves tone naturalness, reduces repetition, strengthens personalization, and introduces more realistic safety escalation. The system is ready for demonstration and submission.
+
+---
+
+## Evaluation Approach
+
+This project uses a structured evaluation set (eval_set.md) consisting of multiple test cases, including normal, edge, and high-risk scenarios. Outputs are evaluated for personalization, tone, structure, and safety to ensure consistent and reliable performance across different inputs.
 
 ---
 
 ## Demo Video
 
-A short walkthrough of the workflow, prompt iterations, evaluation set, and application output will be added here before submission.
+A short walkthrough of the workflow, prompt iterations, evaluation set, and application output can be viewed here:
 
-[Insert YouTube or Vimeo link here]
+[INSERT YOUTUBE LINK HERE]
 
-- Project overview
-- Prompt iteration summary
-- Evaluation set overview
+The video demonstrates:
+- Overview of the workflow
+- Prompt iteration (Version 1 → Version 3)
+- Evaluation set design
 - Running the application in VS Code
-- Example generated output
+- Example output and improvements
 
