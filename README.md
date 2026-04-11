@@ -112,10 +112,8 @@ os.getenv("OPENAI_API_KEY")
 
 - Version 3:
   - Refined tone to a more natural, professional “gentle pharmacist” style
-  - Reduced repetition of client name to improve readability
-  - Added identification of higher-risk scenarios (e.g., fall risk)
-  - Introduced human-review messaging for safety escalation
-  - Improved overall naturalness of generated outputs  - Improved conversational flow and reduced templated phrasing
+  - Reduced repetition of the client’s name to improve readability
+  - Improved conversational flow and reduced templated phrasing
   - Introduced awareness of higher-risk scenarios (e.g., fall risk, functional impact)
   - Added human-review messaging for safety escalation
   - Recognized that tone should adapt based on audience (client-facing vs internal communication)
@@ -135,13 +133,13 @@ This project uses a structured evaluation set (eval_set.md) consisting of multip
 
 ## Demo Video
 
-A short walkthrough of the workflow, prompt iterations, evaluation set, and application output can be viewed here:
+A short walkthrough of the workflow, evaluation set, prompt iterations, and generated output can be viewed here:
 
 https://youtu.be/1_nfYDJ-twA?si=GPROye4akTn2rYyf
 
 The video demonstrates:
-- Overview of the workflow
-- Prompt iteration (Version 1 → Version 3)
+- Overview of the project workflow
+- Prompt iteration from Version 1 to Version 3
 - Evaluation set design
 - Running the application in VS Code
 - Example output and improvements
