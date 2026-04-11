@@ -194,7 +194,7 @@ While the prototype performed well, it still requires human oversight. The syste
 
 ### Deployment Recommendation
 
-This workflow would be recommended for deployment in environments where consultation data is detailed but unstructured, such as wellness or healthcare support settings. It is particularly useful for generating consistent follow-up summaries after consultations. However, it should only be deployed with appropriate human review controls in place. It would not be suitable for diagnostic use.
+This workflow would be recommended for deployment in environments where consultation data is detailed but unstructured, such as wellness or healthcare support settings. It is particularly useful for generating consistent follow-up summaries after consultations. However, it should only be deployed with appropriate human review controls in place. It would not be suitable for diagnostic use and I would advise tighter controls and many more evaluation sets before deployment.
 
 Future improvements could include dynamically expanding the evaluation set by identifying new input patterns that do not fit existing categories, as well as further refining tone and specificity to improve natural communication.
 
