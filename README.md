@@ -137,7 +137,7 @@ This project uses a structured evaluation set (eval_set.md) consisting of multip
 
 A short walkthrough of the workflow, prompt iterations, evaluation set, and application output can be viewed here:
 
-[INSERT YOUTUBE LINK HERE]
+https://youtu.be/1_nfYDJ-twA?si=GPROye4akTn2rYyf
 
 The video demonstrates:
 - Overview of the workflow

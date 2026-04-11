@@ -85,7 +85,7 @@ Version 2 improved personalization, identity consistency, and overall tone while
 ## Comparison (Version 1 vs Version 2 vs Version 3)
 
 - Version 1 produced structured but generic outputs with limited personalization
-- Version 2 improved personalization and introduced identity consistency but overused the client's name
+- Version 2 improved personalization and introduced identity consistency but overused the client’s name
 - Version 3 refined tone and naturalness, reducing repetition and improving readability
 - Version 3 introduced a more realistic professional voice suitable for client communication
 - Version 3 maintained safety while integrating escalation more naturally
@@ -99,23 +99,36 @@ Version 2 improved personalization, identity consistency, and overall tone while
 
 Client Follow-Up Draft
 
+Dear Sally,
+
+Thank you for taking the time to meet with me during your first wellness consult. I appreciate you sharing your experience and concerns about difficulty relaxing in the evenings and your irregular sleep routine.
+
+From our conversation, it’s clear that you’re looking for gentle, straightforward ways to create a calming nighttime environment and develop a more consistent rhythm without feeling overwhelmed. Your familiarity with wellness products through your spouse provides a helpful background as you begin exploring what feels right for you.
+
+To support your goals, I suggest starting with a few simple, soothing activities in the evening, such as mindful breathing or a brief warm beverage routine, while gradually establishing a bedtime schedule that suits your daily lifestyle. Prioritizing quiet, low-stimulation moments before bed could help ease the transition to rest.
+
+If you find certain strategies confusing or notice any notable changes in how well you sleep or your daily energy, a follow-up with a trained wellness professional can provide personalized support tailored to your needs. This ensures any advice aligns safely with your overall health and wellbeing.
+
+Please don’t hesitate to reach out if you have questions or want to discuss additional options as you explore ways to relax more easily. You can call back anytime at XXX-XXX-XXXX. Wishing you peaceful evenings ahead.
+
+Warm regards,
+[Your Name]
+
 Summary of Conversation
 
-Thank you for coming in for your first wellness consult, Sally. We discussed how you've been struggling to relax in the evenings and maintain a consistent sleep routine, even though you're familiar with wellness products through your spouse. You mentioned preferring gentle, straightforward approaches that feel natural and not overwhelming.
+Sally shared that she has trouble unwinding and does not have a consistent sleep schedule, feeling unsure about where to start improving her evening routine. Although familiar with wellness products through her spouse’s use, this was her first personal consult. She prefers gentle, clear guidance without complicated or overwhelming options.
 
 Client Goals
 
-Sally, your main goals are to find simple ways to unwind after a long day and establish a more regular sleep schedule that supports your overall well-being. You want guidance that's easy to follow and fits comfortably into your lifestyle without feeling like too much.
+Sally wants to establish a calming, simple evening routine to help her relax and promote more regular, restful sleep. She seeks plain-language, non-intensive suggestions suitable for her lifestyle and comfort level.
 
 Suggested Next Steps
 
-To start, Sally, you might try some gentle breathing exercises or reading a calming book before bed to help you transition into relaxation time. Setting a consistent bedtime and wake-up time could also help build a steadier routine. If you're open to exploring wellness products, look for mild, natural options and introduce them gradually to see what works best for you. Keeping a brief journal of your evening habits might help track what feels most helpful.
+Begin by integrating small, calming rituals before bedtime, such as mindful breathing exercises or a soothing warm drink. Gradually work toward setting a consistent bedtime that fits your natural rhythm. Observe how these changes feel and adjust gently as needed. Reaching out for ongoing support can be helpful if you’d like more personalized wellness strategies or encounter any concerns.
 
 Caution / Human Review Note
 
-If your challenges with relaxation or sleep persist or become more concerning, it would be wise to consult with a healthcare professional for personalized advice. Remember, these suggestions are general wellness ideas and not a substitute for medical guidance.
-
-Please feel free to call us back at XXX-XXX-XXXX if you'd like to discuss this further or schedule your next appointment.
+If you notice persistent sleep difficulties that affect daily function or increased stress related to sleep, consulting a healthcare or wellness specialist trained to assess your individual needs can provide safer and more tailored guidance.
 
 [End of output]
 
@@ -132,26 +145,21 @@ Please feel free to call us back at XXX-XXX-XXXX if you'd like to discuss this f
 
 ---
 
-## Comparison (Version 2 vs Version 3)
+## Comparison (Version 1 vs Version 2 vs Version 3)
 
-- Version 2 improved personalization but overused the client name
-- Version 3 improves natural flow by reducing repetition
-- Version 3 introduces a more realistic professional tone
-- Version 3 strengthens safety awareness and escalation messaging
-
-Version 3 will focus on improving naturalness and professional tone, with a target style similar to a gentle pharmacist or experienced wellness consultant. It will also strengthen higher-risk escalation language, including situations involving fall risk or cases that warrant review by a highly trained professional.
+- Version 1 produced structured but generic outputs with limited personalization
+- Version 2 improved personalization and introduced identity consistency but overused the client’s name
+- Version 3 refined tone and naturalness, reducing repetition and improving readability
+- Version 3 introduced a more realistic professional voice suitable for client communication
+- Version 3 maintained safety while integrating escalation more naturally
+- Identified that tone should vary depending on whether the audience is a client or internal stakeholder
 
 ---
-
-## Version 3 Output
-(To be added after running Version 3)
-
-## Observations (Version 3)
-(To be completed after reviewing Version 3 output)
-
-## Comparison (V2 vs Version 3)
-(To be completed after Version 3 testing)
 
 ## Final Recommendation
 
 Version 3 is the strongest iteration. It successfully balances personalization, professionalism, and safety while improving natural communication. It is suitable for client-facing use, with minor opportunities for further refinement in name usage and tone adaptability for different audiences.
+
+## Final Reflection
+
+This was a really interesting project to see the real-life application of generative AI. I was able to successfully build something that feels useful and gave me additional ideas for practical tools in this space. While the output still needs refinement to feel fully natural in all cases, especially with more specific language tuning, I am very happy with the results and the overall progression across versions.
