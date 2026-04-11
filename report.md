@@ -163,3 +163,43 @@ Version 3 is the strongest iteration. It successfully balances personalization, 
 ## Final Reflection
 
 This was a really interesting project to see the real-life application of generative AI. I was able to successfully build something that feels useful and gave me additional ideas for practical tools in this space. While the output still needs refinement to feel fully natural in all cases, especially with more specific language tuning, I am very happy with the results and the overall progression across versions.
+
+---
+
+## Final Report Summary
+
+### Business Use Case
+
+This project focuses on a wellness consultation workflow where unstructured consult notes are transformed into structured, client-ready follow-up communications. The goal is to improve clarity, consistency, and efficiency in post-consult documentation while maintaining a human-review boundary for safety. This type of workflow is especially useful in environments where information is detailed but scattered, such as wellness or healthcare consultations.
+
+---
+
+### Model Selection
+
+The model used for this prototype was gpt-4.1-mini. This model was selected because it provides a strong balance between response quality, cost efficiency, and speed. It was capable of maintaining structure while also adapting tone and personalization through prompt iteration. While other models were not extensively tested, the selected model performed reliably across multiple evaluation cases, making it suitable for this type of workflow.
+
+---
+
+### Baseline vs Final Design Comparison
+
+The baseline Version 1 prompt produced outputs that were structurally correct but overly generic and rigid in tone. Version 2 improved personalization by incorporating client identity and context, though it introduced excessive repetition of the client's name. The final Version 3 design refined tone and readability, resulting in more natural, professional communication. It reduced repetition, improved flow, and better aligned with real-world client-facing language, while maintaining structure and safety.
+
+---
+
+### Limitations and Human Review
+
+While the prototype performed well, it still requires human oversight. The system is not suitable for diagnosis or clinical decision-making. It performed best when handling structured wellness guidance but should not be used for high-risk or ambiguous medical situations without review. The model appropriately flagged higher-risk concerns, such as fall risk or significant functional impact, and included guidance to involve a trained professional. This demonstrates that the system can support a human-in-the-loop approach, but not replace it.
+
+---
+
+### Deployment Recommendation
+
+This workflow would be recommended for deployment in environments where consultation data is detailed but unstructured, such as wellness or healthcare support settings. It is particularly useful for generating consistent follow-up summaries after consultations. However, it should only be deployed with appropriate human review controls in place. It would not be suitable for diagnostic use.
+
+Future improvements could include dynamically expanding the evaluation set by identifying new input patterns that do not fit existing categories, as well as further refining tone and specificity to improve natural communication.
+
+---
+
+### Final Reflection on Project
+
+This was a valuable project in demonstrating the real-world application of generative AI. It was possible to build a functional and useful workflow that highlights how prompt iteration can meaningfully improve output quality. While there is still room for refinement, particularly in making the language more consistently natural, the overall results are strong and show clear potential for practical use.
