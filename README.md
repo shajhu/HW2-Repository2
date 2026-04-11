@@ -123,3 +123,17 @@ os.getenv("OPENAI_API_KEY")
 
 Version 3 has been implemented and is ready for testing and evaluation. This iteration focuses on improving tone naturalness, reducing redundancy, and strengthening safety escalation.
 
+---
+
+## Demo Video
+
+A short walkthrough of the workflow, prompt iterations, evaluation set, and application output will be added here before submission.
+
+[Insert YouTube or Vimeo link here]
+
+- Project overview
+- Prompt iteration summary
+- Evaluation set overview
+- Running the application in VS Code
+- Example generated output
+

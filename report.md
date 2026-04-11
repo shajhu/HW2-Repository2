@@ -126,3 +126,17 @@ In higher-risk cases, the system now signals that a trained professional may rev
 - Version 3 strengthens safety awareness and escalation messaging
 
 Version 3 will focus on improving naturalness and professional tone, with a target style similar to a gentle pharmacist or experienced wellness consultant. It will also strengthen higher-risk escalation language, including situations involving fall risk or cases that warrant review by a highly trained professional.
+
+---
+
+## Version 3 Output
+(To be added after running Version 3)
+
+## Observations (Version 3)
+(To be completed after reviewing Version 3 output)
+
+## Comparison (V2 vs Version 3)
+(To be completed after Version 3 testing)
+
+## Final Recommendation
+(To be completed after final comparison across versions)
