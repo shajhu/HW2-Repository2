@@ -28,7 +28,7 @@ python -m venv .venv
 # Command Prompt
 .\.venv\Scripts\activate
 pip install openai
-setx OPENAI_API_KEY "your_api_key_here"
+setx OPENAI_API_KEY "YOUR_OPENAI_API_KEY"
 ```
 
 After setting the API key, close and reopen your terminal, then run:
@@ -44,7 +44,7 @@ python app.py
 The OpenAI API key is stored securely using an environment variable rather than being hardcoded into the application:
 
 ```bash
-setx OPENAI_API_KEY "your_api_key_here"
+setx OPENAI_API_KEY "YOUR_OPENAI_API_KEY"
 ```
 
 After running this command, the terminal must be restarted for the variable to take effect. The application retrieves the key using:
